@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+}
+
+
+input[type="date"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#current-image {
+    width: 100%;
+    max-height: 50%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+
+#search-history {
+    color: blue; padding: 0; margin: 0;
+}
+
+.container {
+    width:520px;
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.current-description {
+    font-size: 12px;
+}
